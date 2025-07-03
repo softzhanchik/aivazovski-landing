@@ -1,0 +1,8 @@
+:root {
+  --white-color: #ffffff;
+  --gray-color: #555;
+  --black-color: #070707;
+
+  --roboto-bold: "Roboto-Bold", sans-serif;
+  --roboto-medium: "Roboto-Medium", sans-serif;
+}
