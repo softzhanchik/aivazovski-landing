@@ -2,11 +2,13 @@
 @import url("./config/variables.css");
 @import url("./config/normalize.css");
 @import url("./sections/header.css");
+@import url("./sections/hero.css");
 
 body {
-  font-size: 18px;
   font-weight: 500;
-  font-family: var(--roboto-medium);
+  line-height: var(--line-height);
+  font-size: var(--font-size-base);
+  font-family: var(--roboto-font);
 }
 
 a {
@@ -18,4 +20,10 @@ a {
   max-width: 970px;
   padding-inline: 10px;
   margin-inline: auto;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding-inline: 20px;
+  }
 }
