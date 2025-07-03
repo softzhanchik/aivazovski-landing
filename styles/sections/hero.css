@@ -23,7 +23,7 @@
   min-height: 490px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 375px) {
   .main {
     margin-top: 66px;
   }
