@@ -3,6 +3,11 @@
   --gray-color: #555;
   --black-color: #070707;
 
-  --roboto-bold: "Roboto-Bold", sans-serif;
-  --roboto-medium: "Roboto-Medium", sans-serif;
+  --line-height: 1.2;
+
+  --font-size-mobile: 14px;
+  --font-size-base: 18px;
+  --font-size-h2: 34px;
+
+  --roboto-font: "Roboto", sans-serif;
 }
