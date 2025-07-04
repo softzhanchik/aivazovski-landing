@@ -6,6 +6,8 @@
 @import url("./sections/hero.css");
 @import url("./sections/about.css");
 @import url("./sections/history.css");
+@import url("./sections/portfolio.css");
+@import url("./sections/contacts.css");
 
 body {
   font-weight: 500;

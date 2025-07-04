@@ -1,0 +1,36 @@
+.portfolio {
+  text-align: center;
+  padding-block: 80px;
+}
+
+.portfolio__title {
+  font-size: var(--font-size-h2);
+  margin-bottom: 76px;
+}
+
+.portfolio__work {
+  margin-bottom: 96px;
+}
+
+.portfolio__works img {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    text-align: center;
+    padding-block: 40px 50px;
+  }
+
+  .portfolio__title {
+    margin-bottom: 50px;
+  }
+
+  .portfolio__work {
+    margin-bottom: 50px;
+  }
+
+  .portfolio__works img {
+    margin-bottom: 30px;
+  }
+}

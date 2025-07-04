@@ -14,7 +14,7 @@
           <ul class="nav-list" aria-label="header navigation list">
             <li>
               <a
-                href="#"
+                href="#hero"
                 class="nav-link link--active"
                 aria-label="link to home page"
                 >Home</a
@@ -22,7 +22,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#about"
                 class="nav-link link--inactive"
                 aria-label="link to about section"
                 >About</a
@@ -30,7 +30,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#history"
                 class="nav-link link--inactive"
                 aria-label="link to history section"
                 >History</a
@@ -38,7 +38,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#portfolio"
                 class="nav-link link--inactive"
                 aria-label="link to portfolio section"
                 >Portfolio</a
@@ -46,7 +46,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="#contacts"
                 class="nav-link link--inactive"
                 aria-label="link to contacts section"
                 >Contacts</a
@@ -58,7 +58,7 @@
     </header>
     <main class="main" aria-label="main section">
       <div class="container">
-        <section class="hero" aria-label="hero section inside main">
+        <section class="hero" aria-label="hero section inside main" id="hero">
           <h1 class="hero__title" aria-label="hero section title">
             Ivan Constantinovich Aivazovski
           </h1>
@@ -71,7 +71,11 @@
             class="hero__img"
           />
         </section>
-        <section class="about" aria-label="about section inside main">
+        <section
+          class="about"
+          aria-label="about section inside main"
+          id="about"
+        >
           <h2 class="about__title" aria-label="about section title">About</h2>
           <p
             class="about__paragraph first--paragraph"
@@ -108,23 +112,135 @@
             marine painters of all time.
           </p>
         </section>
-        <section class="history" aria-label="history section inside main">
+        <section
+          class="history"
+          aria-label="history section inside main"
+          id="history"
+        >
           <h2 class="history__title">History</h2>
-          <img
-            src="./assets/images/history.webp"
-            alt="The house where Aivazovsky was
-            born"
-            class="history__img"
-          />
-          <p
-            class="history__img-desc"
-            aria-label="history section image description"
-          >
-            Дом в котором родился Айвазовский | The house where Aivazovsky was
-            born
-          </p>
+          <figure>
+            <img
+              src="./assets/images/history.webp"
+              alt="The house where Aivazovsky was
+              born"
+              class="history__img"
+            />
+            <fieldset
+              class="history__img-desc"
+              aria-label="history section image description"
+            >
+              Дом в котором родился Айвазовский | The house where Aivazovsky was
+              born
+            </fieldset>
+          </figure>
+        </section>
+        <section
+          class="portfolio"
+          aria-label="portfolio section inside main"
+          id="portfolio"
+        >
+          <h2 class="portfolio__title" aria-label="portfolio section title">
+            Portfolio
+          </h2>
+          <div class="portfolio__works" aria-label="portfolio works">
+            <figure class="portfolio__work work--1" aria-label="work 1">
+              <img
+                src="./assets/images/portfolio1.webp"
+                alt="Winter wagon train on the way, 1857"
+                class="work-1__img"
+              />
+              <figcaption
+                class="work-1__img-desc"
+                aria-label="work 1 description"
+              >
+                Зимний обоз в пути, 1857 г. | Winter wagon train on the way,
+                1857
+              </figcaption>
+            </figure>
+            <figure class="portfolio__work work--2" aria-label="work 2">
+              <img
+                src="./assets/images/portfolio2.webp"
+                alt="Rainbow, 1873"
+                class="work-2__img"
+              />
+              <figcaption
+                class="work-2__img-desc"
+                aria-label="work 2 description"
+              >
+                Радуга, 1873 г. | Rainbow, 1873
+              </figcaption>
+            </figure>
+            <figure class="portfolio__work work--3" aria-label="work 3">
+              <img
+                src="./assets/images/portfolio3.webp"
+                alt="Gulf of Naples in the
+                morning, 1893"
+                class="work-3__img"
+              />
+              <figcaption
+                class="work-3__img-desc"
+                aria-label="work 3 description"
+              >
+                Неаполитанский залив утром, 1893 г. | Gulf of Naples in the
+                morning, 1893
+              </figcaption>
+            </figure>
+          </div>
         </section>
       </div>
     </main>
+    <footer class="contacts" aria-label="contacts section">
+      <h2 class="contacts__title" aria-label="contacts section title">
+        Contacts
+      </h2>
+      <a
+        href="https://ayvazovskiy.su/"
+        class="contacts__link"
+        aria-label="link to Aivazovskiy website"
+        target="_blank"
+        >ayvazovskiy.su</a
+      >
+      <address class="socials" aria-label="social icons">
+        <a
+          href="https://youtube.com"
+          target="_blank"
+          aria-label="link to youtube"
+        >
+          <svg class="social-icon" aria-label="youtube icon">
+            <use href="assets/sprites.svg#youtube-icon"></use>
+          </svg>
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          aria-label="link to linkedin"
+        >
+          <svg class="social-icon" aria-label="linkedin icon">
+            <use href="assets/sprites.svg#linkedin-icon"></use>
+          </svg>
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          aria-label="link to instagram"
+        >
+          <svg class="social-icon" aria-label="instagram icon">
+            <use href="assets/sprites.svg#instagram-icon"></use>
+          </svg>
+        </a>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          aria-label="link to facebook"
+        >
+          <svg class="social-icon" aria-label="facebook icon">
+            <use href="assets/sprites.svg#facebook-icon"></use>
+          </svg>
+        </a>
+      </address>
+      <p class="contacts__outro" aria-label="outro">
+        More works you can see in these social networks
+      </p>
+    </footer>
   </body>
 </html>

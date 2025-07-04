@@ -8,11 +8,6 @@
   margin-bottom: 42px;
 }
 
-.history__img {
-  object-fit: cover;
-  min-height: 480px;
-}
-
 .history__img-desc {
   margin-top: 30px;
 }
