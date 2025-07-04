@@ -8,6 +8,7 @@
 @import url("./sections/history.css");
 @import url("./sections/portfolio.css");
 @import url("./sections/contacts.css");
+@import url("./sections/mobile-nav.css");
 
 body {
   font-weight: 500;
