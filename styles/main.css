@@ -1,8 +1,10 @@
 @import url("./config/fonts.css");
 @import url("./config/variables.css");
 @import url("./config/normalize.css");
+
 @import url("./sections/header.css");
 @import url("./sections/hero.css");
+@import url("./sections/about.css");
 
 body {
   font-weight: 500;
@@ -22,7 +24,11 @@ a {
   margin-inline: auto;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
+  body {
+    font-size: var(--font-size-mobile);
+  }
+
   .container {
     padding-inline: 20px;
   }

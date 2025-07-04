@@ -1,0 +1,26 @@
+.about {
+  max-width: 810px;
+  text-align: center;
+  margin-inline: auto;
+  padding-block: 56px 100px;
+}
+
+.about__title {
+  font-size: var(--font-size-h2);
+  margin-bottom: 42px;
+}
+
+.about__paragraph {
+  margin-block: 16px;
+}
+
+.second--paragraph::after {
+  margin-block: 16px;
+  content: "";
+  display: block;
+  margin-inline: auto;
+
+  height: 2px;
+  max-width: 420px;
+  background-color: var(--gray-color);
+}

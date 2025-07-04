@@ -38,7 +38,6 @@
   }
 
   .hero__desc {
-    font-size: var(--font-size-mobile);
     margin-bottom: 28px;
   }
 }
